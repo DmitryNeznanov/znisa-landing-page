@@ -1,5 +1,7 @@
-import Image from "next/image"
-
 export default function Home() {
-  return <section></section>
+  return (
+    <section className="@container text-white mx-auto bg-black">
+      <h1> sasa</h1>
+    </section>
+  )
 }
