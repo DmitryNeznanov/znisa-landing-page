@@ -1,6 +1,8 @@
 import type { Metadata } from "next"
 import { Handlee, Inter } from "next/font/google"
 import "./globals.css"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 const handlee = Handlee({
   variable: "--font-handlee",
@@ -26,7 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={` ${handlee.variable} ${inter.variable}`}>
-        {children}
+        <div className="container  relative bg-[url('/bg.svg')] border-l-[3px] border-l-black">
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   )

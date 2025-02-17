@@ -1,7 +1,17 @@
+import Contact from "./components/dashboard/Contact"
+import Hero from "./components/dashboard/Hero"
+import Projects from "./components/dashboard/Projects"
+import Skills from "./components/dashboard/Skills"
+import Works from "./components/dashboard/Works"
+
 export default function Home() {
   return (
-    <section className="@container text-white mx-auto bg-black">
-      <h1> sasa</h1>
-    </section>
+    <>
+      <Hero />
+      <Skills />
+      <Projects />
+      <Works />
+      <Contact />
+    </>
   )
 }
