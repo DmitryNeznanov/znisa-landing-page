@@ -27,12 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${handlee.variable} ${inter.variable}`}>
-        <div className="container  relative bg-[url('/bg.svg')] border-l-[3px] border-l-black">
-          <Header />
-          <main>{children}</main>
-          <Footer />
-        </div>
+      <body className={`relative ${handlee.variable} ${inter.variable}`}>
+        <div className="container  w-screen h-screen left-0 right-0 -z-[99999999999] absolute bg-[url('/bg.svg')] border-l-[3px] border-l-black"></div>
+        <Header />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )
