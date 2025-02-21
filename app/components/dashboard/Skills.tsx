@@ -7,19 +7,19 @@ export default function Skills() {
       id="skills"
     >
       <div className="container">
-        <article>
-          <h2 className="w-max font-handlee relative bg-pink-500">
-            What i do?
-          </h2>
-          <Image
-            className="mt-[14px] w-[39px] h-[22px] lg:w-[77px] lg:h-[45px] -rotate-[95.3deg]"
-            src="/svg/arrow.svg"
-            width={77}
-            height={45}
-            alt="arrow.svg"
-          ></Image>
-        </article>
-        <section className="flex flex-col justify-center lg:flex-row gap-x-[38px] gap-y-[22px]">
+        <div className="w-max mx-auto lg:ml-[95px] 2xl:ml-[250px]">
+          <article className="">
+            <h2 className=" font-handlee relative bg-pink-500">What i do?</h2>
+            <Image
+              className="mt-[30px] w-[39px] h-[22px] lg:w-[77px] lg:h-[45px] -rotate-[95.3deg]"
+              src="/svg/arrow.svg"
+              width={77}
+              height={45}
+              alt="arrow.svg"
+            ></Image>
+          </article>
+        </div>
+        <section className="mt-[30px] flex flex-col items-center lg:justify-center lg:flex-row gap-x-[38px] gap-y-[22px]">
           <article className="w-screen h-screen max-w-[260px] max-h-[310px] lg:max-w-[377px] lg:max-h-[452px] pt-[41px] lg:pt-[73px] pb-[62px] lg:pb-[120px] flex flex-col items-center justify-between bg-yellow-500 border-[5px] border-yellow-600 rounded-[8px] -rotate-[4deg]">
             <h2 className="self-end -mr-[20px] font-handlee relative bg-blue-500 rotate-[4deg]">
               Pen/Paper
