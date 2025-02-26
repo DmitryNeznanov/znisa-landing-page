@@ -18,7 +18,7 @@ export default function Footer() {
           />
         </div>
         <nav className="w-full max-w-[215px] lg:max-w-[500px] mt-[38px] lg:mt-0">
-          <ul className=" flex flex-row justify-between ">
+          <ul className="flex flex-row justify-between ">
             {[
               ["Twitter X", "x.com"],
               ["LinkdIn", "LinkdIn.com"],

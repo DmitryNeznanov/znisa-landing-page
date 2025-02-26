@@ -48,6 +48,7 @@
 
   /** shadows */
   --shadow-primary: 3px 3px 12px 0px rgba(0,0,0,0.12);
+  --shadow-xl: 4px 4px 11px 0px rgba(0,0,0,0.16);
 }
 
 
@@ -59,7 +60,7 @@
     @apply font-bold text-[20px] lg:text-[32px]
   }
   h3 {
-    @apply font-normal text-[20px] lg:text-[28px]
+    @apply font-bold text-[20px] lg:text-[28px]
   }
   h4 {
     @apply font-normal text-[16px] lg:text-[24px]
